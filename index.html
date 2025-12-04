@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gmeet_clone</title>
+  </head>
+  <body class="font-sans">
+    <header class="flex justify-between items-center bg-white px-8 py-2 sticky top-0 z-50">
+      <div class="flex items-center space-x-5">
+        <div class="text-gray-700 hover:cursor-pointer hover:text-gray-400"><i class="fa-solid fa-bars"></i></div>
+        <div>
+          <img src="src/logo.webp" alt="logo" width="50">
+        </div>
+        <div ><span class="text-xl font-semibold text-gray-700">ConnectX</span></div>
+      </div>
+
+      <div class="flex items-center space-x-5 font-semibold text-gray-700">
+        
+        <div class="hover:cursor-pointer hover:text-gray-400"><span>8:00 PM.Wed, Dec 3</span></div>
+        
+        <div class="hover:cursor-pointer hover:text-gray-400">
+          <i class="fa-regular fa-circle-question"></i>
+        </div>
+        <div class="hover:cursor-pointer hover:text-gray-400">
+          <i class="fa-regular fa-message"></i>
+        </div>
+        <div class="hover:cursor-pointer hover:text-gray-400">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="hover:cursor-pointer">
+          <img src="src/dots.png" alt="" width="17">
+        </div>
+        <div class="hover:cursor-pointer">
+          <img src="src/profile-logo.png" alt="profile" width="40">
+        </div>
+      </div>
+
+    </header>
+
+    <main class="flex flex-col justify-between relative z-1 ">
+      <div class="flex flex-col space-y-5 ml-3 fixed">
+        <div class="py-3 mt-6 w-50 bg-blue-100 border-blue-200 rounded-r-3xl text-blue-700 hover:cursor-pointer "><h1><i class="fa-regular fa-calendar"></i> Meetings</h1></div>
+        <div class="py-3 w-50 hover:cursor-pointer hover:border-blue-100 hover:bg-gray-200 hover:rounded-r-3xl"><h1><i class="fa-solid fa-video "></i> Calls</h1></div>
+      </div>
+      <div class=" flex flex-col items-center space-y-10 pt-10 ml-30">
+        <div class="flex flex-col space-y-8">
+          <h1 class="text-5xl font-normal">Video calls and meetings <br> <span class="ml-30"> for everyone</span></h1>
+          <p class="text-lg font-normal text-gray-600 text-center">Connect,colloborate and celebrate from anywhere with <br>
+            ConnectX</p>
+        </div>
+        <div class="flex space-x-6 items-center ml-4 pb-8 border-b border-gray-400">
+          <div class="bg-blue-600 text-white py-2 px-2 font-semibold border rounded-3xl hover:bg-blue-500 hover:cursor-pointer"><i class="fa-solid fa-video"></i> New Meeting</div>
+          <div class="border p-1.5 rounded-xl"><i class="fa-solid fa-keyboard"></i> <input type="text" placeholder="Enter a code or link" class="outline-none"></div>
+          <div class="font-normal hover:cursor-pointer text-gray-600"><span>Join</span></div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4 ml-20 mt-10">
+        <div class="flex items-center space-x-5 ml-10">
+          <div class=" border rounded-4xl p-1 hover:text-gray-500"><i class="fa-solid fa-angle-left"></i></div>
+          <div><img src="src/main-img.svg" alt="meet" width="250"></div>
+          <div class="border rounded-4xl p-1 hover:text-gray-500"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="flex flex-col items-center ml-15">
+          <h1 class="text-xl">Get a link you can share</h1>
+          <p class="text-gray-700">Click <span class="text-gray-900 font-medium">New Meeting</span> to get a link you can send to</p>
+          <p class="text-gray-700">people you want to meet with</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mt-10 text-center text-sm">
+      <div><h1><span class="text-blue-700 border-b hover:cursor-pointer hover:text-blue-500">Learn more</span> about ConnectX</h1></div>
+      <br>
+      
+    </footer>
+  </body>
+</html>
